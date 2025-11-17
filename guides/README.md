@@ -84,7 +84,7 @@ To record the weekly study and project progress
 
   (4) 使用 “git clone 仓库链接” 命令把远程仓库克隆到本地；
 
-![picture5](D:\Hardware_Project\Hardware_Embedded_Project\guides\figure\picture5.png)
+![picture5](.\figure\picture5.png)
 
  (5) 随后就可以看见克隆到本地的远程仓库文件夹，进入克隆下来的文件夹，要在该文件夹里进行操作；
 
