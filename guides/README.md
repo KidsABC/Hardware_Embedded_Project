@@ -3,7 +3,7 @@ To record the weekly study and project progress
 
 本文档分为两个部分：第一个部分为周报模板以及要求，第二个部分为如何使用 git 以及 git 常用命令。
 
-文档务必使用 markdown 格式
+文档务必使用 markdown 格式，使用 Typora 工具
 
 # Part 1：周报模板和要求
 
