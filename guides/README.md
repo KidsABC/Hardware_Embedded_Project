@@ -8,8 +8,15 @@ To record the weekly study and project progress
 请务必遵守以下规则：
 
 1. 周报文件名以自己名字的拼音命名，比如"yaorui_weekly_report.md"；
-2. 每个人至少要有3份文件：周报（yaorui_weekly_report.md），项目说明文档，新学习到的知识总结文档；
-3. 附上的关键代码尽量不要写在周报文档里，另外再提一个代码文件夹，在文件夹里以"第几周+代码描述.c"创建代码文件；
+
+2. 每个人至少要有4份文件：周报（yaorui_weekly_report.md），项目说明文档，新学习到的知识总结文档，附加关键代码。如下图；
+
+   ![picture1](./figure/picture1.png)
+
+3. 在“project_core_code”文件夹里以"第几周+代码描述.c"创建代码文件。如下图；
+
+​       ![picture2](./figure/picture2.png)
+
 4. 每次提交周报，把最新一周的周报放在周报文档最前面。
 
 **模板：**
