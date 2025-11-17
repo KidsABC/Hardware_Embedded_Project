@@ -80,15 +80,15 @@ To record the weekly study and project progress
 
 (3) 在远程仓库中复制仓库链接；
 
-![picture4](.\figure\picture4.png)
+![picture4](./figure/picture4.png)
 
   (4) 使用 “git clone 仓库链接” 命令把远程仓库克隆到本地；
 
-![picture5](.\figure\picture5.png)
+![picture5](./figure/picture5.png)
 
  (5) 随后就可以看见克隆到本地的远程仓库文件夹，进入克隆下来的文件夹，要在该文件夹里进行操作；
 
-![picture6](.\figure\picture6.png)
+![picture6](./figure/picture6.png)
 
 ## 2. 步骤2：创建自己的分支并推送到远程仓库
 
@@ -96,26 +96,26 @@ To record the weekly study and project progress
 
 (1) 先使用 "git checkout -b 分支名" 的命令在本地创建自己的分支，分支名用自己的名字拼音命名，比如："git checkout -b yaorui" 这样就从主分支切换到了新的分支，新分支名叫 yaorui；
 
-![picture7](.\figure\picture7.png)
+![picture7](./figure/picture7.png)
 
 (2) 使用 "git push origin -u 分支名" 命令把本地创建的新分支推送到远程仓库，这样本地分支就和远程仓库分支关联起来了。比如："git push origin -u yaorui" 这样就把刚刚创建好的 yaorui 分支推送到了远程仓库；
 
-![picture8](.\figure\picture8.png)
+![picture8](./figure/picture8.png)
 
 (3) 查看远程仓库就可以看到你的分支，以后所有操作就在你的分支上进行，不要动 main 主分支；
 
-![picture9](.\figure\picture9.png)
+![picture9](./figure/picture9.png)
 
 ### 3. 步骤3：在分支上创建周报相关文档并推送到远程仓库
 
-![picture10](.\figure\picture10.png)
+![picture10](./figure/picture10.png)
 
-![picture11](.\figure\picture11.png)
+![picture11](./figure/picture11.png)
 
 可以把 yaorui 分支改成你自己的分支名
 
 这样在远程仓库就可以看到你提交上去的文档和代码
 
-![picture12](.\figure\picture12.png)
+![picture12](./figure/picture12.png)
 
 之后就在自己的分支里修改和添加相关的的文档和代码
