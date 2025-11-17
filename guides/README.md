@@ -118,7 +118,7 @@ To record the weekly study and project progress
 
 ![picture12](./figure/picture12.png)
 
-之后就在自己的本地文件夹里修改和添加相关的的文档和代码，并提交到远程仓库
+之后就在自己的本地文件夹里修改和添加相关的的文档和代码，并提交到远程仓库，一定要在自己创建的分支里进行操作
 
 ## 二、Git 常用命令
 
