@@ -118,4 +118,10 @@ To record the weekly study and project progress
 
 ![picture12](./figure/picture12.png)
 
-之后就在自己的分支里修改和添加相关的的文档和代码
+之后就在自己的本地文件夹里修改和添加相关的的文档和代码，并提交到远程仓库
+
+## 二、Git 常用命令
+
+[Git 常用操作大全（超详细教程）一文教会你完全使用Git_git常用操作详解-CSDN博客](https://blog.csdn.net/m0_73745224/article/details/149708684)
+
+请务必仔细学习篇博客中的命令
