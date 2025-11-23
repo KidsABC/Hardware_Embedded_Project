@@ -6,7 +6,7 @@
 
 ## 二、Linux常用命令行的应用
 
-![image-20251123182206817](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20251123182206817.png)
+![](https://github.com/KidsABC/Hardware_Embedded_Project/blob/fuyifan/pictures/2.png)
 
 ### 用户身份
 
