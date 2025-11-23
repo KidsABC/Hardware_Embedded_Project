@@ -41,7 +41,7 @@
 
 - head file               #查看文件file前10行
 
-- tail file                  #查看文件file后10行
+- tail file                   #查看文件file后10行
 
 ### 删除文件命令
 
