@@ -6,9 +6,7 @@
 
 在学树莓派，19号拿到了树莓派小车的资料看了配套视频，配置环境但云里雾里不知道配到哪一步了。20号系统了解了树莓派，可以在显示器上单独打开树莓派系统了，现在进行树莓派系统里配置代码语言环境。21满课 。现在的进度，电脑可远程操控树莓派。
 
-！[](https://github.com/KidsABC/Hardware_Embedded_Project/blob/fuyifan/pictures/1.png)
-
-![0ae58c3a-0ba6-4965-a5e7-3054bb5dc28b](D:\HARDWARE\freefar_project\Hardware_Embedded_Project\pictures\1.png)
+![](https://github.com/KidsABC/Hardware_Embedded_Project/blob/fuyifan/pictures/1.png)
 
 > ps:自己感觉进度可能有点慢了，下一周会加快的。
 
