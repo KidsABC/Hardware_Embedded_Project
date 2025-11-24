@@ -11,20 +11,30 @@ ARM 1176JZF-S 700 MH单核处理器、256MB RAM、两个USB端口、HDMI、100MB
 ![9198c463cd6bb35348de523a5582f4fa](Learning_Log.assets/9198c463cd6bb35348de523a5582f4fa-1763976563293-6.jpg)
 
 sudo raspi-config               # 系统配置界面
+
 sudo rpi-update                 # 更新固件
+
 sudo apt install raspi-gpio     # 安装GPIO工具
+
 sudo command                     # 以管理员权限执行
+
 chmod +x script.sh              # 添加执行权限
+
 chown pi:pi file                # 更改文件所有者
+
 ps aux                          # 查看所有进程
+
 top                             # 实时进程监控
+
 kill PID                        # 结束进程
+
 sudo reboot                     # 重启系统
+
 sudo shutdown -h now            # 立即关机
 
 ## 三、环境部署
 
-### 系统烧录：![image-20251124170444740](C:\Users\huaiwei\AppData\Roaming\Typora\typora-user-images\image-20251124170444740.png)
+### 系统烧录：![image-20251124173224727](Learning_Log.assets/image-20251124173224727.png)
 
 这里烧录之后SD卡中显示的内存并不是真正的内存。
 
