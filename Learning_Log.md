@@ -8,7 +8,7 @@ ARM 1176JZF-S 700 MH单核处理器、256MB RAM、两个USB端口、HDMI、100MB
 
 关机：
 
-![9198c463cd6bb35348de523a5582f4fa](C:\Users\huaiwei\Desktop\9198c463cd6bb35348de523a5582f4fa.jpg)
+![9198c463cd6bb35348de523a5582f4fa](Learning_Log.assets/9198c463cd6bb35348de523a5582f4fa-1763976563293-6.jpg)
 
 sudo raspi-config               # 系统配置界面
 sudo rpi-update                 # 更新固件
