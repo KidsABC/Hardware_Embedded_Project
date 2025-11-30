@@ -52,7 +52,7 @@ gpioset gpiochip0 17=0   # 输出低电平
 
 ##### 树莓派引脚状态图：
 
-![image-20251126164859509](D:\HARDWARE\freefar_project\Hardware_Embedded_Project\pictures\gpio图)
+![](https://github.com/KidsABC/Hardware_Embedded_Project/blob/fuyifan/pictures/3gpio.png)
 
 > 在此图中，能用的引脚都在 gpiochip0，其他 gpiochip 4 / 6 / 12 / 13/ 14（系统内部功能/特殊外设或内部保留引脚）不要动也不用管。
 
