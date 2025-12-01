@@ -64,5 +64,47 @@ sudo shutdown -h now            # 立即关机
 
 4、远程桌面连接
 
+# 四、树莓派配置静态IP
 
+#### 查看当前网络配置
+
+查看树莓派当前的网络配置，包括IP地址、子网掩码、网关和DNS服务器信息。
+
+#### 查找网关地址
+
+使用 ip route  命令查看网关地址
+
+#### 查找DNS服务器地址
+
+resolvectl status wlan0
+
+#### 编辑 Netplan 配置文件
+
+列出/etc/netplan/ 目录下的文件，编辑对应的 Netplan 配置文件，修改配置文件，添加静态IP地址、网关和DNS服务器地址。
+
+#### 应用配置
+
+#### 验证配置
+
+验证静态IP地址（ip a），验证 DNS 配置（resolvectl status wlan0）
+
+# 五、文件传输
+
+下载WinSCP软件，文件协议是SFTP。
+
+# 六、配置python编译环境
+
+树莓派命令行自带Python：    
+
+输入Python，会有Python版本的提示，然后就可以使用了。退出输入exit（）。
+
+树莓派自带Python编译软件：
+
+点击树莓图标，选择编程，再选择Thonny。
+
+# 七、配置C++编译环境
+
+## 安装gpio库：
+
+检查是否有gpio库，在树莓派命令行里输入gpio -v。若未找到命令。，则需安装，命令行内输入sudo dpkg -i wiringpi-latest.deb。安装wiringpi库，命令行内输入sudo dpkg -i wiringpi-latest.deb。安装完后，输入gpio -v。
 
