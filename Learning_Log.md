@@ -1,11 +1,7 @@
-1.掌握ESP32的WIFI连接（STA模式，AP模式）的简单实现
+（1）学习了部分ONENET
 
-​		STA:ESP32作为终端设备，接入到一个无线接入点
+​		ONENET平台支持多种协议接入：MQTT,HTTP,CoAP（主要使用MQTT）
 
-​		AP：ESP32作为无线接入点，等待其他设备的接入
+​		MQPP参数包含：clientId，username，password
 
-2.学习了ESP32的AP配网
-
-​		配网方式：手动，smartconfig,ble,**AP**
-
-​		协议:http,websockte
+（2）物模型（设备的功能描述）数据交互
