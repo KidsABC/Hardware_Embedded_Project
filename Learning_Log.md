@@ -108,3 +108,99 @@ resolvectl status wlan0
 
 检查是否有gpio库，在树莓派命令行里输入gpio -v。若未找到命令。，则需安装，命令行内输入sudo dpkg -i wiringpi-latest.deb。安装wiringpi库，命令行内输入sudo dpkg -i wiringpi-latest.deb。安装完后，输入gpio -v。
 
+# 八、Linux系统操作命令和编译器的使用
+
+1、终端会话提示符：
+
+![image-20251207212240385](Learning_Log.assets/image-20251207212240385.png)
+
+超级用户名：root
+
+2、常用终端命令：
+
+​	pwd:显示当前所在目录
+
+​	cd~:切换到主目录（/home/pi），~也可以省略不写
+
+​	cd dir:切换到指定目录，dir表示文件路径
+
+​	cd.. 切换到上一级目录
+
+​	ls:展示当前目录下所有的文件和文件夹（不包含隐藏文件）
+
+​	ls -a：展示当前目录下所以问价和文件夹（包含隐藏文件）
+
+​	touch file:创建文件file
+
+​	mkdir dir:创建目录dir
+
+​	cat file:查看文件file里的内容
+
+​	more file:查看文件file里的内容
+
+​	head file:查看文件file前10行
+
+​	tail file:查看文件file后10行
+
+​	rm file #删除文件file
+
+​	rm -r dir #删除目录dir
+
+3、nano编译器：
+
+​	nano file:使用Nano编辑文件file
+
+​	ctrl+o：保存当前文件
+
+​	esc+u:撤销上次操作
+
+​	ctrl+u：粘贴
+
+​	ctrl+g:打开Nano帮助文档
+
+​	vi file:使用vi编辑文件file，若文件不存在，则创建文件file
+
+# 九、串口通信点亮LED灯
+
+1、选定GPIO引脚：cd/sys/class/gpio:进入GPIO目录
+
+​				  ls：查看GPIO目录中的内容
+
+​				  echo 引脚编码>export：GPIO 操作接口从内核空间暴露到用户空间，执行之后                   								             该目录下会增加一个引脚文件
+
+#include <wiringPi.h>
+
+#define Pin 25
+
+int main()
+{
+
+​	if(wiringPiSetup() < 0)
+
+​		return 1;
+
+​	pinMode(Pin,OUTPUT);
+
+​	for(int i=0;i<10;i+ +)
+​	{
+
+​		digitalWVrite(Pin,1);
+
+​		delay (200);
+
+​		digitalwrite(Pin,0);
+
+​		delay (200);
+
+​	}		
+
+​	return 0;
+
+}
+
+2、串口通讯步骤：
+
+​	1、准备待调试的硬件串口
+​	2、安装minicom串口助手
+​	3、电脑安装串口调试工具
+​	4、使用USB转TTL工具连接电脑和树莓派，开始通讯
