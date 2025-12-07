@@ -2,7 +2,7 @@
 
 ## 1.遇到问题多查看手册
 
-  比如：STM32F10xxx参考手册、STM32F103C8T6引脚定义
+ 	比如：STM32F10xxx参考手册、STM32F103C8T6引脚定义
 
 ## 2.FreeRTOS信号量简介
 
@@ -13,3 +13,15 @@
 （2）计数型信号量：队列长度大于一的队列，可容纳多资源
 
 （3）互斥信号量：有优先级继承的二值信号量（互斥访问）
+
+## 3.FreeRTOS宏configTOTAL_HEAP_SIZE
+
+​	 configTOTAL_HEAP_SIZE决定 FreeRTOS 动态内存池（heap）的总大小，专门给任务、队列、信号量等 RTOS 对象用的。
+
+**如果它不够：**
+
+·xTaskCreate() 返回失败
+
+·队列/信号量创建失败
+
+·系统启动后死机或卡在第一任务
